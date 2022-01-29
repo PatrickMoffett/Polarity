@@ -1,55 +1,223 @@
 fileFormatVersion: 2
-guid: e6587621fbc6491448c0eec5cc2b5bc4
+guid: ae084bae157ba2f46af800b3b54b5793
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2398512947641932224
-    second: black_white_tileset_0
+      213: -636439476706963026
+    second: black_white_tileset_v2_0
   - first:
-      213: -2898839625962860821
-    second: black_white_tileset_1
+      213: 6755984058961386690
+    second: black_white_tileset_v2_1
   - first:
-      213: 6422886273239823464
-    second: black_white_tileset_2
+      213: 2332727054703584649
+    second: black_white_tileset_v2_2
   - first:
-      213: -7931072411359620769
-    second: black_white_tileset_3
+      213: 6799380814611773754
+    second: black_white_tileset_v2_3
   - first:
-      213: 4540576869196041641
-    second: black_white_tileset_4
+      213: 2311109770410533098
+    second: black_white_tileset_v2_4
   - first:
-      213: 4089399215538544655
-    second: black_white_tileset_5
+      213: 174546895735160723
+    second: black_white_tileset_v2_5
   - first:
-      213: -8741774389148717751
-    second: black_white_tileset_6
+      213: 715853243271426463
+    second: black_white_tileset_v2_6
   - first:
-      213: -3583588162266675464
-    second: black_white_tileset_7
+      213: -2492936675666554102
+    second: black_white_tileset_v2_7
   - first:
-      213: 1808056308817826108
-    second: black_white_tileset_8
+      213: 4264214307985066989
+    second: black_white_tileset_v2_8
   - first:
-      213: 1998590766054152576
-    second: black_white_tileset_9
+      213: 6424299858062672348
+    second: black_white_tileset_v2_9
   - first:
-      213: -7347371422725729327
-    second: black_white_tileset_10
+      213: -5581463921229349320
+    second: black_white_tileset_v2_10
   - first:
-      213: 3996894804169259023
-    second: black_white_tileset_11
+      213: -5190191136210092091
+    second: black_white_tileset_v2_11
   - first:
-      213: -7596546846239884346
-    second: black_white_tileset_12
+      213: 4022291921184669701
+    second: black_white_tileset_v2_12
   - first:
-      213: -3846789703986104202
-    second: black_white_tileset_13
+      213: 8008499454440423069
+    second: black_white_tileset_v2_13
   - first:
-      213: -483112707122077811
-    second: black_white_tileset_14
+      213: 7302370235006244865
+    second: black_white_tileset_v2_14
   - first:
-      213: 489997831804262953
-    second: black_white_tileset_15
+      213: -6258744165076711732
+    second: black_white_tileset_v2_15
+  - first:
+      213: 2289692036996230638
+    second: black_white_tileset_v2_16
+  - first:
+      213: 8727871068014326339
+    second: black_white_tileset_v2_17
+  - first:
+      213: 1694163810934347683
+    second: black_white_tileset_v2_18
+  - first:
+      213: 8465988989860849630
+    second: black_white_tileset_v2_19
+  - first:
+      213: -2657252167651360788
+    second: black_white_tileset_v2_20
+  - first:
+      213: -552620885613188439
+    second: black_white_tileset_v2_21
+  - first:
+      213: -5091802009299320810
+    second: black_white_tileset_v2_22
+  - first:
+      213: -5760619083565451274
+    second: black_white_tileset_v2_23
+  - first:
+      213: 4871131419139682980
+    second: black_white_tileset_v2_24
+  - first:
+      213: -3024905359895182527
+    second: black_white_tileset_v2_25
+  - first:
+      213: 7184492511055064197
+    second: black_white_tileset_v2_26
+  - first:
+      213: 462780881115049043
+    second: black_white_tileset_v2_27
+  - first:
+      213: -7821755081705661817
+    second: black_white_tileset_v2_28
+  - first:
+      213: -3846406700849076531
+    second: black_white_tileset_v2_29
+  - first:
+      213: 6018615488327931197
+    second: black_white_tileset_v2_30
+  - first:
+      213: -4609036565556013878
+    second: black_white_tileset_v2_31
+  - first:
+      213: -1704100483670616043
+    second: black_white_tileset_v2_32
+  - first:
+      213: -2106632143870581439
+    second: black_white_tileset_v2_33
+  - first:
+      213: -1419955938838317546
+    second: black_white_tileset_v2_34
+  - first:
+      213: -3490489580421513588
+    second: black_white_tileset_v2_35
+  - first:
+      213: -758512198704397370
+    second: white_tiles_0
+  - first:
+      213: -2281425677678426214
+    second: white_tiles_1
+  - first:
+      213: -1975069578748988718
+    second: white_tiles_2
+  - first:
+      213: -3839247540803154774
+    second: white_tiles_3
+  - first:
+      213: -7945162969927786355
+    second: white_tiles_4
+  - first:
+      213: 4815361761309437528
+    second: white_tiles_5
+  - first:
+      213: 2900393852801901532
+    second: white_tiles_6
+  - first:
+      213: -588162949297589832
+    second: white_tiles_7
+  - first:
+      213: 7949779667828723574
+    second: white_tiles_8
+  - first:
+      213: 4414325150493561451
+    second: white_tiles_9
+  - first:
+      213: 6140077930149455575
+    second: white_tiles_10
+  - first:
+      213: -3569404052824506953
+    second: white_tiles_11
+  - first:
+      213: 3219035662486965399
+    second: white_tiles_12
+  - first:
+      213: 2916199947352284052
+    second: white_tiles_13
+  - first:
+      213: -8060244158118304360
+    second: white_tiles_14
+  - first:
+      213: 3831633713939808058
+    second: white_tiles_15
+  - first:
+      213: -7773027324011914318
+    second: white_tiles_16
+  - first:
+      213: -2537281403642331632
+    second: white_tiles_17
+  - first:
+      213: -9056040326913869780
+    second: white_tiles_18
+  - first:
+      213: 3173587063351603804
+    second: white_tiles_19
+  - first:
+      213: 5444112061757738742
+    second: white_tiles_20
+  - first:
+      213: 934597386478253337
+    second: white_tiles_21
+  - first:
+      213: -678328974587851769
+    second: white_tiles_22
+  - first:
+      213: -2943613644164525110
+    second: white_tiles_23
+  - first:
+      213: 4313981337110911345
+    second: white_tiles_24
+  - first:
+      213: 8797566149361366118
+    second: white_tiles_25
+  - first:
+      213: -1024679386907684795
+    second: white_tiles_26
+  - first:
+      213: -3304815824116673053
+    second: white_tiles_27
+  - first:
+      213: -5951131916326680145
+    second: white_tiles_28
+  - first:
+      213: 7577241453784129106
+    second: white_tiles_29
+  - first:
+      213: 2667164012325097973
+    second: white_tiles_30
+  - first:
+      213: -2147689255490392990
+    second: white_tiles_31
+  - first:
+      213: -8722726721014183038
+    second: white_tiles_32
+  - first:
+      213: -2790269264387944410
+    second: white_tiles_33
+  - first:
+      213: 742128461199612050
+    second: white_tiles_34
+  - first:
+      213: 1417346576041470988
+    second: white_tiles_35
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -151,7 +319,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: black_white_tileset_0
+      name: white_tiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c38c6e8c293975f0800000000000000
+      internalID: -758512198704397370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_tiles_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97c5840f6fb650e0800000000000000
+      internalID: -2281425677678426214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_tiles_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d27cf7bea42794e0800000000000000
+      internalID: -1975069578748988718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_tiles_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacc2ade3b048bac0800000000000000
+      internalID: -3839247540803154774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_tiles_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80edd6cf5c1db190800000000000000
+      internalID: -7945162969927786355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_tiles_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e29df420a93d240800000000000000
+      internalID: 4815361761309437528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white_tiles_6
       rect:
         serializedVersion: 2
         x: 0
@@ -165,14 +459,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c95f5961da394120800000000000000
-      internalID: 2398512947641932224
+      spriteID: cd3ebf897d4404820800000000000000
+      internalID: 2900393852801901532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_white_tileset_1
+      name: white_tiles_7
       rect:
         serializedVersion: 2
         x: 16
@@ -186,14 +480,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bee48a908b045c7d0800000000000000
-      internalID: -2898839625962860821
+      spriteID: 8b13211f9ec66d7f0800000000000000
+      internalID: -588162949297589832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_white_tileset_2
+      name: white_tiles_8
       rect:
         serializedVersion: 2
         x: 32
@@ -207,35 +501,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 864313d190da22950800000000000000
-      internalID: 6422886273239823464
+      spriteID: 67fcd87fc7a435e60800000000000000
+      internalID: 7949779667828723574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_white_tileset_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f51520999ab2fe190800000000000000
-      internalID: -7931072411359620769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_white_tileset_4
+      name: white_tiles_9
       rect:
         serializedVersion: 2
         x: 0
@@ -249,14 +522,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ad09c30b9e530f30800000000000000
-      internalID: 4540576869196041641
+      spriteID: b62dd361655d24d30800000000000000
+      internalID: 4414325150493561451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_white_tileset_5
+      name: white_tiles_10
       rect:
         serializedVersion: 2
         x: 16
@@ -270,14 +543,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f00afe28be670c830800000000000000
-      internalID: 4089399215538544655
+      spriteID: 7d626cf8850f53550800000000000000
+      internalID: 6140077930149455575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_white_tileset_6
+      name: white_tiles_11
       rect:
         serializedVersion: 2
         x: 32
@@ -291,35 +564,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94dee2c428afea680800000000000000
-      internalID: -8741774389148717751
+      spriteID: 7bd3e8becede67ec0800000000000000
+      internalID: -3569404052824506953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_white_tileset_7
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f6ccc69d89844ec0800000000000000
-      internalID: -3583588162266675464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_white_tileset_8
+      name: white_tiles_12
       rect:
         serializedVersion: 2
         x: 0
@@ -333,14 +585,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c319df422a1871910800000000000000
-      internalID: 1808056308817826108
+      spriteID: 79c89dd31ef4cac20800000000000000
+      internalID: 3219035662486965399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_white_tileset_9
+      name: white_tiles_13
       rect:
         serializedVersion: 2
         x: 16
@@ -354,14 +606,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 089980676bb6cbb10800000000000000
-      internalID: 1998590766054152576
+      spriteID: 49b12f3c66c687820800000000000000
+      internalID: 2916199947352284052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_white_tileset_10
+      name: white_tiles_14
       rect:
         serializedVersion: 2
         x: 32
@@ -375,35 +627,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d3939b7e94e80a90800000000000000
-      internalID: -7347371422725729327
+      spriteID: 895e078a4a2442090800000000000000
+      internalID: -8060244158118304360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_white_tileset_11
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f08fc1fd5a2d77730800000000000000
-      internalID: 3996894804169259023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_white_tileset_12
+      name: white_tiles_15
       rect:
         serializedVersion: 2
         x: 0
@@ -417,14 +648,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cbf14e34e4a39690800000000000000
-      internalID: -7596546846239884346
+      spriteID: a3ffaccdf82bc2530800000000000000
+      internalID: 3831633713939808058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_white_tileset_13
+      name: white_tiles_16
       rect:
         serializedVersion: 2
         x: 16
@@ -438,14 +669,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 678374835257d9ac0800000000000000
-      internalID: -3846789703986104202
+      spriteID: 2bb5dd205d8a02490800000000000000
+      internalID: -7773027324011914318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_white_tileset_14
+      name: white_tiles_17
       rect:
         serializedVersion: 2
         x: 32
@@ -459,29 +690,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8fd2817d83ab49f0800000000000000
-      internalID: -483112707122077811
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_white_tileset_15
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92a97619e62dcc600800000000000000
-      internalID: 489997831804262953
+      spriteID: 01eb1b8a104c9ccd0800000000000000
+      internalID: -2537281403642331632
       vertices: []
       indices: 
       edges: []

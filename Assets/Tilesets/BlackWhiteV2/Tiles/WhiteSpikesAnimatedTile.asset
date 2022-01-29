@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: WhiteSpikesAnimatedTile
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -807000926395258723, guid: 985d0a2f921d4324c8b1e9124f986340, type: 3}
+  - {fileID: 3994365546080007632, guid: 985d0a2f921d4324c8b1e9124f986340, type: 3}
+  - {fileID: -2426156074741728517, guid: 985d0a2f921d4324c8b1e9124f986340, type: 3}
+  - {fileID: -3680490896003028486, guid: 985d0a2f921d4324c8b1e9124f986340, type: 3}
+  - {fileID: 6820958726137712645, guid: 985d0a2f921d4324c8b1e9124f986340, type: 3}
+  - {fileID: -7228306893635992140, guid: 985d0a2f921d4324c8b1e9124f986340, type: 3}
+  - {fileID: 1790917736259248881, guid: 985d0a2f921d4324c8b1e9124f986340, type: 3}
+  - {fileID: -6305600495188854248, guid: 985d0a2f921d4324c8b1e9124f986340, type: 3}
+  - {fileID: 7784900651688895765, guid: 985d0a2f921d4324c8b1e9124f986340, type: 3}
+  - {fileID: 4811606865911695263, guid: 985d0a2f921d4324c8b1e9124f986340, type: 3}
+  - {fileID: 6530859946473651473, guid: 985d0a2f921d4324c8b1e9124f986340, type: 3}
+  - {fileID: -5550264123526748344, guid: 985d0a2f921d4324c8b1e9124f986340, type: 3}
+  - {fileID: 4951669924972896128, guid: 985d0a2f921d4324c8b1e9124f986340, type: 3}
+  - {fileID: 2157359113107531150, guid: 985d0a2f921d4324c8b1e9124f986340, type: 3}
+  - {fileID: -9115482649385191790, guid: 985d0a2f921d4324c8b1e9124f986340, type: 3}
+  m_MinSpeed: 8
+  m_MaxSpeed: 8
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 2

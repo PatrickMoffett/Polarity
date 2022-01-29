@@ -1,55 +1,52 @@
 fileFormatVersion: 2
-guid: e6587621fbc6491448c0eec5cc2b5bc4
+guid: 985d0a2f921d4324c8b1e9124f986340
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2398512947641932224
-    second: black_white_tileset_0
+      213: -807000926395258723
+    second: spikes_white_0
   - first:
-      213: -2898839625962860821
-    second: black_white_tileset_1
+      213: 3994365546080007632
+    second: spikes_white_1
   - first:
-      213: 6422886273239823464
-    second: black_white_tileset_2
+      213: -2426156074741728517
+    second: spikes_white_2
   - first:
-      213: -7931072411359620769
-    second: black_white_tileset_3
+      213: -3680490896003028486
+    second: spikes_white_3
   - first:
-      213: 4540576869196041641
-    second: black_white_tileset_4
+      213: 6820958726137712645
+    second: spikes_white_4
   - first:
-      213: 4089399215538544655
-    second: black_white_tileset_5
+      213: -7228306893635992140
+    second: spikes_white_5
   - first:
-      213: -8741774389148717751
-    second: black_white_tileset_6
+      213: 1790917736259248881
+    second: spikes_white_6
   - first:
-      213: -3583588162266675464
-    second: black_white_tileset_7
+      213: -6305600495188854248
+    second: spikes_white_7
   - first:
-      213: 1808056308817826108
-    second: black_white_tileset_8
+      213: 7784900651688895765
+    second: spikes_white_8
   - first:
-      213: 1998590766054152576
-    second: black_white_tileset_9
+      213: 4811606865911695263
+    second: spikes_white_9
   - first:
-      213: -7347371422725729327
-    second: black_white_tileset_10
+      213: 6530859946473651473
+    second: spikes_white_10
   - first:
-      213: 3996894804169259023
-    second: black_white_tileset_11
+      213: -5550264123526748344
+    second: spikes_white_11
   - first:
-      213: -7596546846239884346
-    second: black_white_tileset_12
+      213: 4951669924972896128
+    second: spikes_white_12
   - first:
-      213: -3846789703986104202
-    second: black_white_tileset_13
+      213: 2157359113107531150
+    second: spikes_white_13
   - first:
-      213: -483112707122077811
-    second: black_white_tileset_14
-  - first:
-      213: 489997831804262953
-    second: black_white_tileset_15
+      213: -9115482649385191790
+    second: spikes_white_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -151,259 +148,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: black_white_tileset_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c95f5961da394120800000000000000
-      internalID: 2398512947641932224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_white_tileset_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bee48a908b045c7d0800000000000000
-      internalID: -2898839625962860821
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_white_tileset_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 864313d190da22950800000000000000
-      internalID: 6422886273239823464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_white_tileset_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f51520999ab2fe190800000000000000
-      internalID: -7931072411359620769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_white_tileset_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ad09c30b9e530f30800000000000000
-      internalID: 4540576869196041641
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_white_tileset_5
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f00afe28be670c830800000000000000
-      internalID: 4089399215538544655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_white_tileset_6
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94dee2c428afea680800000000000000
-      internalID: -8741774389148717751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_white_tileset_7
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f6ccc69d89844ec0800000000000000
-      internalID: -3583588162266675464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_white_tileset_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c319df422a1871910800000000000000
-      internalID: 1808056308817826108
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_white_tileset_9
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 089980676bb6cbb10800000000000000
-      internalID: 1998590766054152576
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_white_tileset_10
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d3939b7e94e80a90800000000000000
-      internalID: -7347371422725729327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_white_tileset_11
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f08fc1fd5a2d77730800000000000000
-      internalID: 3996894804169259023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_white_tileset_12
+      name: spikes_white_0
       rect:
         serializedVersion: 2
         x: 0
@@ -417,14 +162,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cbf14e34e4a39690800000000000000
-      internalID: -7596546846239884346
+      spriteID: d98acc0eee4fcc4f0800000000000000
+      internalID: -807000926395258723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_white_tileset_13
+      name: spikes_white_1
       rect:
         serializedVersion: 2
         x: 16
@@ -438,14 +183,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 678374835257d9ac0800000000000000
-      internalID: -3846789703986104202
+      spriteID: 0d578251d46de6730800000000000000
+      internalID: 3994365546080007632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_white_tileset_14
+      name: spikes_white_2
       rect:
         serializedVersion: 2
         x: 32
@@ -459,14 +204,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8fd2817d83ab49f0800000000000000
-      internalID: -483112707122077811
+      spriteID: bfafc5387ef845ed0800000000000000
+      internalID: -2426156074741728517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_white_tileset_15
+      name: spikes_white_3
       rect:
         serializedVersion: 2
         x: 48
@@ -480,8 +225,239 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92a97619e62dcc600800000000000000
-      internalID: 489997831804262953
+      spriteID: af92ea8b7054cecc0800000000000000
+      internalID: -3680490896003028486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spikes_white_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5001a0b82d9e8ae50800000000000000
+      internalID: 6820958726137712645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spikes_white_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5c15d6d25efab90800000000000000
+      internalID: -7228306893635992140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spikes_white_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2eda3413e9ad810800000000000000
+      internalID: 1790917736259248881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spikes_white_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81abdb412c10e78a0800000000000000
+      internalID: -6305600495188854248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spikes_white_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515af9385e5890c60800000000000000
+      internalID: 7784900651688895765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spikes_white_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f974f7993f246c240800000000000000
+      internalID: 4811606865911695263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spikes_white_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d7363f48642aa50800000000000000
+      internalID: 6530859946473651473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spikes_white_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847e79baf2089f2b0800000000000000
+      internalID: -5550264123526748344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spikes_white_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f9efacf8dd7b440800000000000000
+      internalID: 4951669924972896128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spikes_white_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85e9b5eeaa70fd10800000000000000
+      internalID: 2157359113107531150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spikes_white_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296b82783dc4f7180800000000000000
+      internalID: -9115482649385191790
       vertices: []
       indices: 
       edges: []
