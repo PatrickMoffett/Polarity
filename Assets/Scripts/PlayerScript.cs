@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class PlayerScript : MonoBehaviour
@@ -35,5 +36,10 @@ public class PlayerScript : MonoBehaviour
         {
             rb.AddForce(new Vector2(horizontalInput * speed, verticalInput * speed));
         }
+    }
+    public void Die()
+    {
+        //TODO Show a died screen first
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
