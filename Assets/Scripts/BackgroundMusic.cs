@@ -8,6 +8,7 @@ public class BackgroundMusic : MonoBehaviour
     public static BackgroundMusic Instance { get { return _instance; } }
     private void Awake()
     {
+        //create this object as a singleton
         if (_instance != null && _instance != this)
         {
             Destroy(this.gameObject);
@@ -17,16 +18,5 @@ public class BackgroundMusic : MonoBehaviour
             _instance = this;
             DontDestroyOnLoad(gameObject);
         }
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

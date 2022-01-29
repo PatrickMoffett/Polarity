@@ -5,19 +5,33 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private static SceneLoader _instance;
+    public static SceneLoader Instance { get { return _instance; } }
 
-    // Update is called once per frame
-    void Update()
+    int CurrentScene = 0;
+
+    private void Awake()
     {
-        
+        //create this object as a singleton
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            _instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
     }
     public void LoadScene(int i)
     {
+        CurrentScene = i;
         SceneManager.LoadScene(i);
+    }
+
+    public void LoadNextScene()
+    {
+        CurrentScene++;
+        SceneManager.LoadScene(CurrentScene);
     }
 }

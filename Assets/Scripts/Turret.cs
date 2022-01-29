@@ -4,27 +4,26 @@ using UnityEngine;
 
 public class Turret : MonoBehaviour
 {
+    //Projectile Prefab that will be spawned
     [SerializeField]
     GameObject TurretProjectilePrefab;
 
+    //Location To Spawn The Projectile (Should be setup as a child gameobject of the Turret
     [SerializeField]
     GameObject ProjectileSpawnLocation;
 
+    //How Often to launch a projectile
     [SerializeField]
     float TimeBetweenShots = 2;
 
+    //Velocity to give the projectile after spawning
     [SerializeField]
     float ProjectileVelocity = 150;
+
     // Start is called before the first frame update
     void Start()
     {
         InvokeRepeating("LaunchProjectile", TimeBetweenShots, TimeBetweenShots);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
     void LaunchProjectile()
     {
