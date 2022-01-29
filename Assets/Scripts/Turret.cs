@@ -28,9 +28,8 @@ public class Turret : MonoBehaviour
     }
     void LaunchProjectile()
     {
-        Vector2 SpawnLocation = ProjectileSpawnLocation.transform.position;
-
-        GameObject Projectile = Instantiate(TurretProjectilePrefab,SpawnLocation, Quaternion.identity);
-        Projectile.GetComponent<Rigidbody2D>().AddForce(new Vector2(ProjectileVelocity, 0));
+        //Spawn projectile at SpawnLocation with rotation, and set velocity
+        GameObject Projectile = Instantiate(TurretProjectilePrefab, ProjectileSpawnLocation.transform.position, ProjectileSpawnLocation.transform.rotation);
+        Projectile.GetComponent<Rigidbody2D>().AddForce(gameObject.transform.right * ProjectileVelocity);
     }
 }
