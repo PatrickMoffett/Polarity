@@ -1,55 +1,25 @@
 fileFormatVersion: 2
-guid: 41998e56fd5e93949bf862af27471d6a
+guid: 8a4cf9debefc48547ad2b58368d5b318
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3749147949731459164
-    second: player_sprites_black
+      213: 2394793236862824431
+    second: waterfall_tile_0
   - first:
-      213: -4400439624648458093
-    second: player_sprites_white
+      213: -3530264466098447598
+    second: waterfall_tile_1
   - first:
-      213: -6433130613314919930
-    second: player_sprites_blue
+      213: -2049150255416576989
+    second: waterfall_tile_2
   - first:
-      213: -4169287844967337775
-    second: player_sprites_green
+      213: 6808923062042317657
+    second: waterfall_tile_3
   - first:
-      213: 5144746215449349205
-    second: player_sprites_4
+      213: -2445315594179250616
+    second: waterfall_tile_4
   - first:
-      213: 9166445211582857861
-    second: player_sprites_5
-  - first:
-      213: -8607592370270104272
-    second: player_sprites_6
-  - first:
-      213: 8675903786400057050
-    second: player_sprites_7
-  - first:
-      213: 1498383266670129070
-    second: player_sprites_8
-  - first:
-      213: 9173507951081783054
-    second: player_sprites_9
-  - first:
-      213: 7884996014662962119
-    second: player_sprites_10
-  - first:
-      213: 4057774140946743551
-    second: player_sprites_11
-  - first:
-      213: 8975304006102754250
-    second: player_sprites_12
-  - first:
-      213: -3235853079288364713
-    second: player_sprites_13
-  - first:
-      213: 8917664266462106549
-    second: player_sprites_14
-  - first:
-      213: 6047475057101037205
-    second: player_sprites_15
+      213: -1217841471217821981
+    second: waterfall_tile_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -151,53 +121,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_sprites_black
+      name: waterfall_tile_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c50b02a4236a70430800000000000000
-      internalID: 3749147949731459164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_sprites_white
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3908645d97f7ee2c0800000000000000
-      internalID: -4400439624648458093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_sprites_blue
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -207,18 +135,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6026ca79acde8b6a0800000000000000
-      internalID: -6433130613314919930
+      spriteID: fef67b1c2c30c3120800000000000000
+      internalID: 2394793236862824431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_sprites_green
+      name: waterfall_tile_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 32
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -228,8 +156,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d03e5a7bc6b326c0800000000000000
-      internalID: -4169287844967337775
+      spriteID: 21b94071c2bf10fc0800000000000000
+      internalID: -3530264466098447598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall_tile_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3247e7613b4ff83e0800000000000000
+      internalID: -2049150255416576989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall_tile_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9535fff13772e7e50800000000000000
+      internalID: 6808923062042317657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall_tile_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846f8354c6e701ed0800000000000000
+      internalID: -2445315594179250616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall_tile_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6925362ab591fe0800000000000000
+      internalID: -1217841471217821981
       vertices: []
       indices: 
       edges: []

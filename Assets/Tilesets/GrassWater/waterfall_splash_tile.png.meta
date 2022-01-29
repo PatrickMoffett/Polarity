@@ -1,55 +1,25 @@
 fileFormatVersion: 2
-guid: 41998e56fd5e93949bf862af27471d6a
+guid: 30d397386e21e5542ad4d229e1348cfc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3749147949731459164
-    second: player_sprites_black
+      213: -5096648436695632722
+    second: waterfall_splash_tile_0
   - first:
-      213: -4400439624648458093
-    second: player_sprites_white
+      213: 2217579900300088225
+    second: waterfall_splash_tile_1
   - first:
-      213: -6433130613314919930
-    second: player_sprites_blue
+      213: 8523691562381420740
+    second: waterfall_splash_tile_2
   - first:
-      213: -4169287844967337775
-    second: player_sprites_green
+      213: -2925025003721789532
+    second: waterfall_splash_tile_3
   - first:
-      213: 5144746215449349205
-    second: player_sprites_4
+      213: 5462400463958276126
+    second: waterfall_splash_tile_4
   - first:
-      213: 9166445211582857861
-    second: player_sprites_5
-  - first:
-      213: -8607592370270104272
-    second: player_sprites_6
-  - first:
-      213: 8675903786400057050
-    second: player_sprites_7
-  - first:
-      213: 1498383266670129070
-    second: player_sprites_8
-  - first:
-      213: 9173507951081783054
-    second: player_sprites_9
-  - first:
-      213: 7884996014662962119
-    second: player_sprites_10
-  - first:
-      213: 4057774140946743551
-    second: player_sprites_11
-  - first:
-      213: 8975304006102754250
-    second: player_sprites_12
-  - first:
-      213: -3235853079288364713
-    second: player_sprites_13
-  - first:
-      213: 8917664266462106549
-    second: player_sprites_14
-  - first:
-      213: 6047475057101037205
-    second: player_sprites_15
+      213: -3019700208271900139
+    second: waterfall_splash_tile_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -151,53 +121,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_sprites_black
+      name: waterfall_splash_tile_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c50b02a4236a70430800000000000000
-      internalID: 3749147949731459164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_sprites_white
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3908645d97f7ee2c0800000000000000
-      internalID: -4400439624648458093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_sprites_blue
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -207,18 +135,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6026ca79acde8b6a0800000000000000
-      internalID: -6433130613314919930
+      spriteID: ea4f4b100411549b0800000000000000
+      internalID: -5096648436695632722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_sprites_green
+      name: waterfall_splash_tile_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 32
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -228,8 +156,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d03e5a7bc6b326c0800000000000000
-      internalID: -4169287844967337775
+      spriteID: 1a3de6a8b2d66ce10800000000000000
+      internalID: 2217579900300088225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall_splash_tile_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c82db6c05c3a4670800000000000000
+      internalID: 8523691562381420740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall_splash_tile_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afe60ea1493867d0800000000000000
+      internalID: -2925025003721789532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall_splash_tile_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18792be7485ecb40800000000000000
+      internalID: 5462400463958276126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waterfall_splash_tile_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512c7cdd8aed716d0800000000000000
+      internalID: -3019700208271900139
       vertices: []
       indices: 
       edges: []
