@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Spikes : MonoBehaviour
 {
@@ -20,8 +19,7 @@ public class Spikes : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            //TODO Show a died screen first
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            collision.gameObject.GetComponent<PlayerScript>().Die();
         }
     }
 }

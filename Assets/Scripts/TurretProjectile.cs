@@ -20,6 +20,7 @@ public class TurretProjectile : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             collision.gameObject.GetComponent<PlayerScript>().Die();
+            Destroy(gameObject);
         }
         else
         {
