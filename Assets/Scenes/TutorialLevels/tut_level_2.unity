@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6475265557981855074, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
+      propertyPath: m_text
+      value: '"If there is no struggle, there is no progress" -Frederick Douglass'
+      objectReference: {fileID: 0}
     - target: {fileID: 6475265558288520368, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
       propertyPath: m_Pivot.x
       value: 0

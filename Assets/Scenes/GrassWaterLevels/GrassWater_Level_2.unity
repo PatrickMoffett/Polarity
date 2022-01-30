@@ -332,7 +332,7 @@ Tilemap:
       - {fileID: -8148676612360249253, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
       - {fileID: 8937960139843896363, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
       - {fileID: 1520759377170308638, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
-      m_AnimationSpeed: 9.985018
+      m_AnimationSpeed: 9.181545
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 4, y: -6, z: 0}
@@ -367,7 +367,7 @@ Tilemap:
       - {fileID: -8148676612360249253, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
       - {fileID: 8937960139843896363, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
       - {fileID: 1520759377170308638, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
-      m_AnimationSpeed: 9.68552
+      m_AnimationSpeed: 9.600386
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -6, y: -3, z: 0}
@@ -381,7 +381,7 @@ Tilemap:
       - {fileID: -8148676612360249253, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
       - {fileID: 8937960139843896363, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
       - {fileID: 1520759377170308638, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
-      m_AnimationSpeed: 9.814325
+      m_AnimationSpeed: 9.542039
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -9, y: -2, z: 0}
@@ -395,7 +395,7 @@ Tilemap:
       - {fileID: -8148676612360249253, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
       - {fileID: 8937960139843896363, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
       - {fileID: 1520759377170308638, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
-      m_AnimationSpeed: 9.969379
+      m_AnimationSpeed: 9.764057
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -12, y: -1, z: 0}
@@ -430,7 +430,7 @@ Tilemap:
       - {fileID: -8148676612360249253, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
       - {fileID: 8937960139843896363, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
       - {fileID: 1520759377170308638, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
-      m_AnimationSpeed: 9.170842
+      m_AnimationSpeed: 9.780909
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 8, y: 0, z: 0}
@@ -465,7 +465,7 @@ Tilemap:
       - {fileID: -8148676612360249253, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
       - {fileID: 8937960139843896363, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
       - {fileID: 1520759377170308638, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
-      m_AnimationSpeed: 9.194185
+      m_AnimationSpeed: 9.743672
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   m_TileAssetArray:
@@ -3530,7 +3530,7 @@ Tilemap:
       - {fileID: -2925025003721789532, guid: 30d397386e21e5542ad4d229e1348cfc, type: 3}
       - {fileID: 5462400463958276126, guid: 30d397386e21e5542ad4d229e1348cfc, type: 3}
       - {fileID: -3019700208271900139, guid: 30d397386e21e5542ad4d229e1348cfc, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -7, y: -2, z: 0}
@@ -4006,6 +4006,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6475265557981855074, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
+      propertyPath: m_text
+      value: Find Tranquility Among Chaos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475265557981855100, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 251.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475265557981855100, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475265557981855100, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 55.42
+      objectReference: {fileID: 0}
     - target: {fileID: 6475265558288520368, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
