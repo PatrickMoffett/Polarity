@@ -75,6 +75,8 @@ public class Level : MonoBehaviour
             var tw_cc = tw.AddComponent<CompositeCollider2D>();
             tw_tc.usedByComposite = true;
 
+            // tw_tm.RefreshAllTiles();
+
 
             // Add Script Here?
         }
