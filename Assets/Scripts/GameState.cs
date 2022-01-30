@@ -10,6 +10,10 @@ public class GameState : MonoBehaviour
     GameObject YangPlayer;
     [SerializeField]
     float WinDistance = 1f;
+    [SerializeField]
+    GameObject FusionDance;
+    [SerializeField]
+    GameObject UICanvas;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,9 +28,34 @@ public class GameState : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if((YinPlayer.transform.position - YangPlayer.transform.position).magnitude < WinDistance)
+        //If Players are null we have already won
+        if (YangPlayer == null || YinPlayer == null) return;
+
+        //get a distance vector between the players
+        Vector3 DistanceVector = YinPlayer.transform.position - YangPlayer.transform.position;
+
+        //If the distance is less than the win distance Start ending the scene
+        if ((DistanceVector).magnitude < WinDistance)
         {
-            SceneLoader.Instance.LoadNextScene();
+            //destroy the players
+            Destroy(YinPlayer);
+            Destroy(YangPlayer);
+
+            //show the fusion animation
+            Instantiate(FusionDance, (YangPlayer.transform.position + DistanceVector / 2), Quaternion.identity);
+
+            //get the time it will take for the background to fade in
+            float BackgroundFadeInTime = UICanvas.GetComponent<UITitleScript>().FadeInSpeed;
+
+            //start fading in the background
+            StartCoroutine(UICanvas.GetComponent<UITitleScript>().FadeInBackground());
+
+            //when the background has faded in load next scene
+            Invoke("LoadNextScene",BackgroundFadeInTime);
         }
+    }
+    private void LoadNextScene()
+    {
+        SceneLoader.Instance.LoadNextScene();
     }
 }

@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 
 public class PlayerScript : MonoBehaviour
@@ -13,10 +12,13 @@ public class PlayerScript : MonoBehaviour
     float speed = 10f;
 
     Rigidbody2D rb;
+
+    Vector3 InitialPosition;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        InitialPosition = gameObject.transform.position;
     }
 
     // Update is called once per frame
@@ -46,7 +48,7 @@ public class PlayerScript : MonoBehaviour
 
     public void Die()
     {
-        //TODO Show a died screen first
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //TODO Show a died screen first? Play a sound?
+        gameObject.transform.position = InitialPosition;
     }
 }

@@ -8,7 +8,7 @@ public class SceneLoader : MonoBehaviour
     private static SceneLoader _instance;
     public static SceneLoader Instance { get { return _instance; } }
 
-    public int CurrentScene = 0;
+    int CurrentScene = 0;
 
     private void Awake()
     {
