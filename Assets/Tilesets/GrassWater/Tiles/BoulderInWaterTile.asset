@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: BoulderInWaterTile
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -3573480970838888233, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
+  - {fileID: 5255295325705369292, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
+  - {fileID: 7542236880619941713, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
+  - {fileID: 4406295573229252772, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
+  - {fileID: 1761340650890179340, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
+  - {fileID: -8148676612360249253, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
+  - {fileID: 8937960139843896363, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
+  - {fileID: 1520759377170308638, guid: b26fccdaf6681d840b25cb80583b1d91, type: 3}
+  m_MinSpeed: 9
+  m_MaxSpeed: 10
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 2
