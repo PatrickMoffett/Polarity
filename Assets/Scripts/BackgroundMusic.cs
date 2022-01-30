@@ -41,27 +41,41 @@ public class BackgroundMusic : MonoBehaviour
     }
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        SetAudioClipForScene(scene);
+    }
+
+    private void SetAudioClipForScene(Scene scene)
+    {
         if (_audioSource == null) return;
+
         int index = scene.buildIndex;
-        foreach(LevelIndexAudioClipPair<int, AudioClip> pair in AudioMap)
+
+        foreach (LevelIndexAudioClipPair<int, AudioClip> pair in AudioMap)
         {
-            if(pair.LevelIndex == index)
+            if (index > pair.LevelIndex)
             {
                 pendingAudioClip = pair.audioClip;
-                if (pendingAudioClip == _audioSource.clip)
-                {
-                    return;
-                }
-
-                StartCoroutine(AudioFadeOut(AudioFadeInTime, FadeResolution));
-                Invoke("StartNewAudioClip", AudioFadeInTime + .1f);
-                return;
+            }
+            else if (index < pair.LevelIndex)
+            {
+                break;
             }
         }
+
+        if (pendingAudioClip == _audioSource.clip)
+        {
+            return;
+        }
+
+        StartCoroutine(AudioFadeOut(AudioFadeOutTime, FadeResolution));
+        Invoke("StartNewAudioClip", AudioFadeInTime + .1f);
+        return;
     }
+
     private void Start()
     {
         _audioSource = GetComponent<AudioSource>();
+        SetAudioClipForScene(SceneManager.GetActiveScene());
     }
     private void StartNewAudioClip()
     {

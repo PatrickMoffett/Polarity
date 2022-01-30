@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class TurretProjectile : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+    AudioSource m_AudioSource;
+    private void Start()
     {
-
+        m_AudioSource = GetComponent<AudioSource>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -14,7 +15,8 @@ public class TurretProjectile : MonoBehaviour
         {
             //if we hit the player, tell the player to die and destroy the projectile
             collision.gameObject.GetComponent<PlayerScript>().Die();
-            Destroy(gameObject);
+            m_AudioSource.Play();
+            //Destroy(gameObject);
         }
         else if (collision.gameObject.layer == gameObject.layer)
         {

@@ -20,9 +20,12 @@ public class GameState : MonoBehaviour
 
     Vector3 YinPlayerStart;
     Vector3 YangPlayerStart;
+
+    AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         if(_instance == null)
         {
             _instance = this;
@@ -74,6 +77,10 @@ public class GameState : MonoBehaviour
         //If the distance is less than the win distance Start ending the scene
         if ((DistanceVector).magnitude < WinDistance)
         {
+            if (audioSource != null)
+            {
+                audioSource.Play();
+            }
             //destroy the players
             Destroy(YinPlayer);
             Destroy(YangPlayer);

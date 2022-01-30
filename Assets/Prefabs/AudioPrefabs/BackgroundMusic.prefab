@@ -143,6 +143,8 @@ MonoBehaviour:
   AudioMap:
   - <LevelIndex>k__BackingField: 0
     <audioClip>k__BackingField: {fileID: 8300000, guid: 3a9caab2addf93440a267fda7bb16d7a, type: 3}
+  - <LevelIndex>k__BackingField: 4
+    <audioClip>k__BackingField: {fileID: 8300000, guid: f700e2a73d0079e4eb317dcc19a4a94e, type: 3}
   - <LevelIndex>k__BackingField: 7
     <audioClip>k__BackingField: {fileID: 8300000, guid: da7079194bdbbb14698862c57d8fc7ae, type: 3}
   AudioFadeOutTime: 2

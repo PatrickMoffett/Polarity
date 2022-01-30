@@ -12,6 +12,11 @@ public class Ice : MonoBehaviour
     //the original drag of the colliding gameobject
     float OriginalLinearDrag;
 
+    private void Start()
+    {
+
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //On Trigger Enter cache the players original drag and set it to our value
@@ -20,7 +25,6 @@ public class Ice : MonoBehaviour
             Rigidbody2D rb =collision.gameObject.GetComponent<Rigidbody2D>();
             OriginalLinearDrag = rb.drag;
             rb.drag = LinearDrag;
-            
         }
     }
     private void OnTriggerExit2D(Collider2D collision)

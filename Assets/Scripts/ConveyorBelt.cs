@@ -11,11 +11,21 @@ public class ConveyorBelt : MonoBehaviour
 
     List<Rigidbody2D> m_Rigidbodies;
 
+    AudioSource audioSource;
+
+    [SerializeField]
+    float AudioFadeOutTime = 2f;
+
+    [SerializeField]
+    float AudioFadeInTime = .25f;
+
+    [SerializeField]
+    float FadeResolution = .03f;
     // Start is called before the first frame update
     void Start()
     {
         ConveyorDirection.Normalize();
-
+        audioSource = GetComponent<AudioSource>();
         m_Rigidbodies = new List<Rigidbody2D>();
     }
 
@@ -37,6 +47,7 @@ public class ConveyorBelt : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             m_Rigidbodies.Add(collision.gameObject.GetComponent<Rigidbody2D>());
+            StartCoroutine(AudioFadeIn(AudioFadeInTime, FadeResolution));
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -44,6 +55,23 @@ public class ConveyorBelt : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             m_Rigidbodies.Remove(collision.gameObject.GetComponent<Rigidbody2D>());
+            StartCoroutine(AudioFadeOut(AudioFadeOutTime, FadeResolution));
+        }
+    }
+    IEnumerator AudioFadeOut(float FadeTime, float FadeResolution)
+    {
+        for (float volume = 1f; volume >= 0; volume -= FadeResolution)
+        {
+            audioSource.volume = volume;
+            yield return new WaitForSeconds(FadeResolution * FadeTime);
+        }
+    }
+    IEnumerator AudioFadeIn(float FadeTime, float FadeResolution)
+    {
+        for (float volume = 0f; volume <= 1; volume += FadeResolution)
+        {
+            audioSource.volume = volume;
+            yield return new WaitForSeconds(FadeResolution * FadeTime);
         }
     }
 }

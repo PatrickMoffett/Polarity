@@ -23,13 +23,17 @@ public class Turret : MonoBehaviour
     [SerializeField]
     float ProjectileVelocity = 150;
 
+    AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         InvokeRepeating("LaunchProjectile",InitialDelay,TimeBetweenShots);
     }
     void LaunchProjectile()
     {
+        audioSource.Play();
         //Spawn projectile at SpawnLocation with rotation, and set velocity
         GameObject Projectile = Instantiate(TurretProjectilePrefab, ProjectileSpawnLocation.transform.position, ProjectileSpawnLocation.transform.rotation);
         Projectile.GetComponent<Rigidbody2D>().AddForce(gameObject.transform.right * ProjectileVelocity);
