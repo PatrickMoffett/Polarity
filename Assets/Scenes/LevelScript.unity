@@ -238,9 +238,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapGrid: {fileID: 284648639}
   TileBlank: {fileID: 0}
-  TileWhite: {fileID: 11400000, guid: ad2ab84780b996148a05649da705dc55, type: 2}
-  TileBlack: {fileID: 11400000, guid: 868e9eb82278a4141886c56782a2c5a1, type: 2}
+  TileWhite: {fileID: 11400000, guid: 4234407b9ea9ca4449ee51eb30f50d34, type: 2}
+  TileBlack: {fileID: 11400000, guid: 981282a9b080bef4d9ed92fb8612e3b2, type: 2}
   TilePink: {fileID: 11400000, guid: 1ecbd04141d8b694dab219a3765bc7ee, type: 2}
+  TileWhiteRule: {fileID: 11400000, guid: 4234407b9ea9ca4449ee51eb30f50d34, type: 2}
+  TileBlackRule: {fileID: 0}
 --- !u!156049354 &284648639
 Grid:
   m_ObjectHideFlags: 0

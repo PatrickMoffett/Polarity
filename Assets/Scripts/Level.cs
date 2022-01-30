@@ -10,8 +10,8 @@ public class Level : MonoBehaviour
     public Tile TileWhite;
     public Tile TileBlack;
     public Tile TilePink;
-    public RuleTile TileWhiteRule;
-    public RuleTile TileBlackRule;
+    public Tile TileWhiteRule;
+    public Tile TileBlackRule;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +19,7 @@ public class Level : MonoBehaviour
         {
             {0, "TileBlank"}, {1, "TileWhite"}, {2, "TileBlack"}, {3, "TilePink"},{4, "TileWhiteRule"},{5, "TileBlackRule"}
         };
-        var TileTypes = new Dictionary<short, RuleTile>
+        var TileTypes = new Dictionary<short, Tile>
         {
             {0, TileBlank}, {1, TileWhite}, {2, TileBlack}, {3, TilePink},{4, TileWhiteRule},{5, TileBlackRule}
         };
