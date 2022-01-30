@@ -12,6 +12,9 @@ public class Turret : MonoBehaviour
     [SerializeField]
     GameObject ProjectileSpawnLocation;
 
+    [SerializeField]
+    float InitialDelay = 0;
+
     //How Often to launch a projectile
     [SerializeField]
     float TimeBetweenShots = 2;
@@ -23,7 +26,7 @@ public class Turret : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("LaunchProjectile", TimeBetweenShots, TimeBetweenShots);
+        InvokeRepeating("LaunchProjectile",InitialDelay,TimeBetweenShots);
     }
     void LaunchProjectile()
     {
