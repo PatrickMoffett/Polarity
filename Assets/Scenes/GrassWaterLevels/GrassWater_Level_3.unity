@@ -3396,7 +3396,7 @@ Tilemap:
       - {fileID: -2925025003721789532, guid: 30d397386e21e5542ad4d229e1348cfc, type: 3}
       - {fileID: 5462400463958276126, guid: 30d397386e21e5542ad4d229e1348cfc, type: 3}
       - {fileID: -3019700208271900139, guid: 30d397386e21e5542ad4d229e1348cfc, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -5, y: -2, z: 0}
@@ -3432,7 +3432,7 @@ Tilemap:
       - {fileID: 6808923062042317657, guid: 8a4cf9debefc48547ad2b58368d5b318, type: 3}
       - {fileID: -2445315594179250616, guid: 8a4cf9debefc48547ad2b58368d5b318, type: 3}
       - {fileID: -1217841471217821981, guid: 8a4cf9debefc48547ad2b58368d5b318, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -10, y: -1, z: 0}
@@ -6659,6 +6659,24 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6475265557981855074, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
+      propertyPath: m_text
+      value: '"Peace: It does not mean to be in a place where there is no noise,
+        trouble or hard work.
+
+        It means to be in the midst of those things
+        and still be calm in your heart"
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475265557981855100, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 286.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475265557981855100, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 11.17
+      objectReference: {fileID: 0}
     - target: {fileID: 6475265558288520368, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -6749,7 +6767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6475265558288520372, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6475265558288520375, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
       propertyPath: m_Camera
