@@ -1,55 +1,25 @@
 fileFormatVersion: 2
-guid: 41998e56fd5e93949bf862af27471d6a
+guid: 3e1c9c849a0077a4cbc89bafef46d641
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3749147949731459164
-    second: player_sprites_black
+      213: -7847489368116345698
+    second: lava_waterfall_tile_0
   - first:
-      213: -4400439624648458093
-    second: player_sprites_white
+      213: -8800374088909312438
+    second: lava_waterfall_tile_1
   - first:
-      213: -6433130613314919930
-    second: player_sprites_blue
+      213: -2392336338488905954
+    second: lava_waterfall_tile_2
   - first:
-      213: -4169287844967337775
-    second: player_sprites_green
+      213: -60162560598131788
+    second: lava_waterfall_tile_3
   - first:
-      213: 5144746215449349205
-    second: player_sprites_4
+      213: -2380565889562035156
+    second: lava_waterfall_tile_4
   - first:
-      213: 9166445211582857861
-    second: player_sprites_5
-  - first:
-      213: -8607592370270104272
-    second: player_sprites_6
-  - first:
-      213: 8675903786400057050
-    second: player_sprites_7
-  - first:
-      213: 1498383266670129070
-    second: player_sprites_8
-  - first:
-      213: 9173507951081783054
-    second: player_sprites_9
-  - first:
-      213: 7884996014662962119
-    second: player_sprites_10
-  - first:
-      213: 4057774140946743551
-    second: player_sprites_11
-  - first:
-      213: 8975304006102754250
-    second: player_sprites_12
-  - first:
-      213: -3235853079288364713
-    second: player_sprites_13
-  - first:
-      213: 8917664266462106549
-    second: player_sprites_14
-  - first:
-      213: 6047475057101037205
-    second: player_sprites_15
+      213: -8666949731343296087
+    second: lava_waterfall_tile_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -116,7 +86,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,7 +98,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -140,7 +110,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -151,95 +121,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_sprites_black
+      name: lava_waterfall_tile_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c50b02a4236a70430800000000000000
-      internalID: 3749147949731459164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_sprites_white
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3908645d97f7ee2c0800000000000000
-      internalID: -4400439624648458093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_sprites_blue
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6026ca79acde8b6a0800000000000000
-      internalID: -6433130613314919930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_sprites_green
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d03e5a7bc6b326c0800000000000000
-      internalID: -4169287844967337775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_sprites_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 16
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -249,18 +135,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55cc467cc6fc56740800000000000000
-      internalID: 5144746215449349205
+      spriteID: e9445ca5ffd181390800000000000000
+      internalID: -7847489368116345698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_sprites_5
+      name: lava_waterfall_tile_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 16
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -270,8 +156,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5820a71aa51c53f70800000000000000
-      internalID: 9166445211582857861
+      spriteID: a4e220c746aced580800000000000000
+      internalID: -8800374088909312438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_waterfall_tile_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f2c1976c6bcced0800000000000000
+      internalID: -2392336338488905954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_waterfall_tile_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb35ca48724a2ff0800000000000000
+      internalID: -60162560598131788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_waterfall_tile_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c3e3cafe786fed0800000000000000
+      internalID: -2380565889562035156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_waterfall_tile_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a99d19832fc8b780800000000000000
+      internalID: -8666949731343296087
       vertices: []
       indices: 
       edges: []
