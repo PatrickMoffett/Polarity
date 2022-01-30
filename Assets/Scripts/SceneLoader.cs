@@ -8,7 +8,7 @@ public class SceneLoader : MonoBehaviour
     private static SceneLoader _instance;
     public static SceneLoader Instance { get { return _instance; } }
 
-    int CurrentScene = 0;
+    public int CurrentScene = 0;
 
     private void Awake()
     {
@@ -33,6 +33,11 @@ public class SceneLoader : MonoBehaviour
     public void LoadNextScene()
     {
         CurrentScene++;
+        if(CurrentScene >= SceneManager.sceneCountInBuildSettings)
+        {
+            //Goto Main Menu
+            CurrentScene = 0;
+        }
         SceneManager.LoadScene(CurrentScene);
     }
 }

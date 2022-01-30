@@ -24,6 +24,6 @@ EditorBuildSettings:
     path: Assets/Scenes/GrassWaterLevels/GrassWater_Level_1.unity
     guid: 957455d4c3ca26349b828a0dd288348b
   - enabled: 1
-    path: Assets/Scenes/GrassWaterLevels/GrassWater_Level_2.unity
+    path: Assets/Scenes/GrassWaterLevels/GrassWater_Level_3.unity
     guid: 86e44d85f15b74641869469fc8721173
   m_configObjects: {}
