@@ -10,16 +10,18 @@ public class Level : MonoBehaviour
     public Tile TileWhite;
     public Tile TileBlack;
     public Tile TilePink;
+    public Tile TileWhiteRule;
+    public Tile TileBlackRule;
     // Start is called before the first frame update
     void Start()
     {
         var TileTypeNames = new Dictionary<short, string>
         {
-            {0, "TileBlank"}, {1, "TileWhite"}, {2, "TileBlack"}, {3, "TilePink"}
+            {0, "TileBlank"}, {1, "TileWhite"}, {2, "TileBlack"}, {3, "TilePink"},{4, "TileWhiteRule"},{5, "TileBlackRule"}
         };
         var TileTypes = new Dictionary<short, Tile>
         {
-            {0, TileBlank}, {1, TileWhite}, {2, TileBlack}, {3, TilePink}
+            {0, TileBlank}, {1, TileWhite}, {2, TileBlack}, {3, TilePink},{4, TileWhiteRule},{5, TileBlackRule}
         };
         // var TileScripts = new Dictionary<short, string>
         // {
@@ -64,7 +66,7 @@ public class Level : MonoBehaviour
 
             tw_tm.tileAnchor = new Vector3(.5f,.5f,0);
             tw.transform.SetParent(mapGrid.transform);
-            tw.transform.position = new Vector3(-10f,-5f,0f);
+            tw.transform.position = new Vector3(-11f,-6f,0f);
             // tw_tm.SetTile(new Vector3Int(0,0,0),TileWhite);
             tw_tm.SetTiles(TilesPosLis[TileType].ToArray(), TilesTypeLis[TileType].ToArray());
             var tw_tc = tw.AddComponent<TilemapCollider2D>();
