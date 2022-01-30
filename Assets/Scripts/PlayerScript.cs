@@ -12,12 +12,6 @@ public class PlayerScript : MonoBehaviour
     [SerializeField]
     float speed = 10f;
 
-    [SerializeField]
-    float WinRadius = 1.1f;
-    
-    [SerializeField]
-    GameObject OtherPlayer;
-
     Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
@@ -32,12 +26,6 @@ public class PlayerScript : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        float distance = (OtherPlayer.transform.position - gameObject.transform.position).magnitude;
-        if(distance < WinRadius)
-        {
-            //TODO Show a win screen? Go To Next Level?
-            Debug.Log("You Won!");
-        }
         AddMovementFromInput();
     }
 
