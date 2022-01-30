@@ -24,6 +24,13 @@ public class SceneLoader : MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }
     }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            LoadScene(0);
+        }
+    }
     public void LoadScene(int i)
     {
         CurrentScene = i;
