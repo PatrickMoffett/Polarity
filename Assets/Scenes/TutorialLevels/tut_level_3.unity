@@ -3073,6 +3073,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UICanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6475265558288520372, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6475265558288520375, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
       propertyPath: m_Camera
       value: 

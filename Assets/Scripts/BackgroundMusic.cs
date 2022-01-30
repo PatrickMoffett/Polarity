@@ -52,7 +52,7 @@ public class BackgroundMusic : MonoBehaviour
 
         foreach (LevelIndexAudioClipPair<int, AudioClip> pair in AudioMap)
         {
-            if (index > pair.LevelIndex)
+            if (index >= pair.LevelIndex)
             {
                 pendingAudioClip = pair.audioClip;
             }
@@ -61,7 +61,8 @@ public class BackgroundMusic : MonoBehaviour
                 break;
             }
         }
-
+        Debug.Log(index);
+        Debug.Log(pendingAudioClip);
         if (pendingAudioClip == _audioSource.clip)
         {
             return;
