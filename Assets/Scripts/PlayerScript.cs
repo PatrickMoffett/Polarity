@@ -13,12 +13,10 @@ public class PlayerScript : MonoBehaviour
 
     Rigidbody2D rb;
 
-    Vector3 InitialPosition;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        InitialPosition = gameObject.transform.position;
     }
 
     // Update is called once per frame
@@ -48,7 +46,12 @@ public class PlayerScript : MonoBehaviour
 
     public void Die()
     {
-        //TODO Show a died screen first? Play a sound?
-        gameObject.transform.position = InitialPosition;
+        if(GameState.Instance == null)
+        {
+            Debug.LogWarning("No GameState Found in scene");
+            return;
+        }
+
+        GameState.Instance.PlayerDied();
     }
 }
