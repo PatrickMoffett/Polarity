@@ -4185,7 +4185,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 3
-      m_TileSpriteIndex: 8
+      m_TileSpriteIndex: 13
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -5715,7 +5715,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 3
-      m_TileSpriteIndex: 6
+      m_TileSpriteIndex: 12
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -6706,22 +6706,22 @@ Tilemap:
     m_Data: {fileID: 6778563533910410437, guid: cbe9af7d2e1a26448a46836e6328618c, type: 3}
   - m_RefCount: 127
     m_Data: {fileID: 2375790484123197507, guid: cbe9af7d2e1a26448a46836e6328618c, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 5306798364928101037, guid: cbe9af7d2e1a26448a46836e6328618c, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 17
     m_Data: {fileID: 5574290343154672208, guid: cbe9af7d2e1a26448a46836e6328618c, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 8885672807577359975, guid: cbe9af7d2e1a26448a46836e6328618c, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 146
     m_Data: {fileID: -5187269943231500076, guid: cbe9af7d2e1a26448a46836e6328618c, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 31
     m_Data: {fileID: -1163013719645148603, guid: cbe9af7d2e1a26448a46836e6328618c, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 5306798364928101037, guid: cbe9af7d2e1a26448a46836e6328618c, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 8885672807577359975, guid: cbe9af7d2e1a26448a46836e6328618c, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 32
     m_Data:
@@ -7421,6 +7421,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6475265557981855074, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
+      propertyPath: m_text
+      value: '"You can''t have pride without humility. Aggression without tolerance.
+        Strength without compassion. Power without restraint."
+
+        -D.J Machale'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475265557981855100, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 285.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475265557981855100, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475265557981855100, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 28
+      objectReference: {fileID: 0}
     - target: {fileID: 6475265558288520368, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
       propertyPath: m_Pivot.x
       value: 0

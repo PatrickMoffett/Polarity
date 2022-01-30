@@ -401,6 +401,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6475265557981855074, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
+      propertyPath: m_text
+      value: '"A ship in harbor is safe, but that is not what ships are built for"
+
+        Albert
+        Einstein & John A. Shedd'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475265557981855100, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 169.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475265557981855100, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 41
+      objectReference: {fileID: 0}
     - target: {fileID: 6475265558288520368, guid: f9d61f94dd1bdf54fad33b6ab299e55d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -670,7 +685,7 @@ Tilemap:
       - {fileID: -6424772144948252763, guid: 9edeafc7a337de1488a1cfa069e41fcb, type: 3}
       - {fileID: 6755962418073188322, guid: 9edeafc7a337de1488a1cfa069e41fcb, type: 3}
       - {fileID: 2629126475782949818, guid: 9edeafc7a337de1488a1cfa069e41fcb, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 5, y: -4, z: 0}
@@ -3433,7 +3448,7 @@ Tilemap:
       - {fileID: 6808923062042317657, guid: 8a4cf9debefc48547ad2b58368d5b318, type: 3}
       - {fileID: -2445315594179250616, guid: 8a4cf9debefc48547ad2b58368d5b318, type: 3}
       - {fileID: -1217841471217821981, guid: 8a4cf9debefc48547ad2b58368d5b318, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -10, y: 0, z: 0}
