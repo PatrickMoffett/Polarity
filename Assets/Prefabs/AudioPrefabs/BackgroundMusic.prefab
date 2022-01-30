@@ -140,3 +140,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aba09fe7347434468487ccd76700cf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AudioMap:
+  - <LevelIndex>k__BackingField: 0
+    <audioClip>k__BackingField: {fileID: 8300000, guid: 3a9caab2addf93440a267fda7bb16d7a, type: 3}
+  - <LevelIndex>k__BackingField: 7
+    <audioClip>k__BackingField: {fileID: 8300000, guid: da7079194bdbbb14698862c57d8fc7ae, type: 3}
+  AudioFadeOutTime: 2
+  AudioFadeInTime: 2
+  FadeResolution: 0.03

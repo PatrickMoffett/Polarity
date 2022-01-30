@@ -30,6 +30,15 @@ EditorBuildSettings:
     path: Assets/Scenes/GrassWaterLevels/GrassWater_Level_3.unity
     guid: 9efbdf1c3e594164ea90e5d623a9288c
   - enabled: 1
-    path: Assets/Scenes/LavaIceLevels/LavaIceLevel_1.unity
-    guid: 86e44d85f15b74641869469fc8721173
+    path: Assets/Scenes/LavaIceLevels/LaveIceLevel_1.unity
+    guid: c4ccd09a9e37e8647b3aaa6cba2b32c3
+  - enabled: 1
+    path: Assets/Scenes/LavaIceLevels/LaveIceLevel_2.unity
+    guid: 6e1d6f36f92da194f92dec3126431f34
+  - enabled: 1
+    path: Assets/Scenes/LavaIceLevels/LaveIceLevel_3.unity
+    guid: 2a98e41b504bb9a40819c8c159ec5cf6
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

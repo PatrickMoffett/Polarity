@@ -51,7 +51,7 @@ public class UITitleScript : MonoBehaviour
         {
             TextColor.a = alpha;
             TitleText.GetComponent<TextMeshProUGUI>().color = TextColor;
-            yield return new WaitForSeconds(.01f * FadeInSpeed);
+            yield return new WaitForSeconds(FadeInAmountPerTick * FadeInSpeed);
         }
     }
     public IEnumerator FadeInBackground()
@@ -62,7 +62,7 @@ public class UITitleScript : MonoBehaviour
         {
             BackgroundColor.a = alpha;
             BackgroundPanel.GetComponent<Image>().color = BackgroundColor;
-            yield return new WaitForSeconds(.01f * FadeInSpeed);
+            yield return new WaitForSeconds(FadeInAmountPerTick * FadeInSpeed);
         }
     }
     IEnumerator FadeOutTitleAndBackground()
@@ -76,7 +76,7 @@ public class UITitleScript : MonoBehaviour
             TextColor.a = alpha;
             BackgroundPanel.GetComponent<Image>().color = BackgroundColor;
             TitleText.GetComponent<TextMeshProUGUI>().color = TextColor;
-            yield return new WaitForSeconds(.01f*FadeOutSpeed);
+            yield return new WaitForSeconds(FadeOutAmountPerTick * FadeOutSpeed);
         }
     }
 }
